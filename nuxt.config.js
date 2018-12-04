@@ -15,6 +15,10 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: '/scripts/main.js' },
+      { src:"//maps.googleapis.com/maps/api/js?key=AIzaSyA1BspM__GUsNpFRdq9BrYp-CVQrSFhmoc&libraries=places&callback=foo" }
     ]
   },
 
@@ -32,8 +36,8 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  //plugins: [
+  //],
 
   /*
   ** Nuxt.js modules
